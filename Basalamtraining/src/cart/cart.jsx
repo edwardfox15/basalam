@@ -9,12 +9,12 @@ const Cart = (props) => {
                 <img className='w-100 h-100' src={props.image}/>
             </div>
             <div className='w-20 h-20'>
-                <p className='fw-bold text-drection'>
-                    {props.title}
+                <p className='text-title fw-bold text-drection text-cart-nowrap'>
+                    <span>{props.title}</span>
                 </p>
             </div>
-            <div className='w-100 h-100 d-flex flex-row justify-content-end align-items-center'>
-                <div className='w-100 h-100 d-flex flex-row justify-content-start align-items-center fw-bold'>
+            <div className='w-100 h-100 d-flex flex-row justify-content-end align-items-center text-cart'>
+                <div className='w-100 h-100 d-flex flex-row justify-content-start align-items-center fw-bold text-cart'>
                 <IconRating/>
                 {props.rating}
                 </div>
@@ -25,7 +25,7 @@ const Cart = (props) => {
             <div className='w-100 h-100'>
              <button className='addBtn rounded'>+</button>
             </div>
-            <div className='w-100 h-100 text-price-font d-flex flex-row justify-content-end align-items-center'>
+            <div className='w-100 h-100 text-price-font d-flex flex-row justify-content-end align-items-center text-cart'>
             <IconPrice/>
                 {props.price}
             </div>
