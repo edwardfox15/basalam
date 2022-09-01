@@ -1,0 +1,80 @@
+.Homepage--container{
+    width: 15%;
+    height: minmax(25rem , 25rem);
+}
+.bg-Homepage-container{
+    background: linear-gradient(to bottom, #d6d6d6 0%, #e7c187b3 75%, #e0c1c1 100%);
+}
+.bg-Homepage-container:hover{
+    background: linear-gradient(to bottom, #e7c187b3 0%, #d6d6d6 75%, #e0c1c1 100%);
+    transition: all 1s;
+
+}
+.IMage-container{
+    max-width: 100px;
+    max-width: 100px;
+}
+.text-drection{
+    text-align: start;
+}
+.addBtn{
+    width: 35px;
+    height:35px;
+    background-color: #FF5C39;
+    border: solid 1px;
+    border-color: #FF5C39;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    float: left;
+}
+.addBtn:hover , .addBtn:focus{
+    background-color: transparent;
+    border: solid 1px;
+    border-color: #FF5C39;
+    color: #FF5C39;
+    font-size: large;
+    font-weight: 800;
+}
+.text-color-location{
+    color: gray;
+}
+.text-price-font{
+    font-size: large;
+    font-weight: 700;
+}
+.icon-rating-color{
+    color: gray;
+}
+.count-rating-color-font{
+    color: gray;
+    font-size: small;
+}
+.gap-price-btn{
+    column-gap: 40%;
+}
+.container{
+    max-width: 100%;
+    min-height: 100%;
+}
+.Name-store{
+    position: absolute;
+    top: 0%;
+    left: 44%;
+    line-height: 4rem;
+    font-family: "Varela Round","Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgb(5, 5, 5), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@media screen and (max-width:1080px) {
+    .con {
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+    }
+    .Homepage--container{
+        width: 30%;
+    }
+}
