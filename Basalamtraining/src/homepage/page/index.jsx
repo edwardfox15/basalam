@@ -1,8 +1,25 @@
+import axios from "axios"
+import { useEffect } from "react"
+import { useState } from "react"
 import Cart from "../../cart/cart"
 import { fakeData } from "../../fakeData/fakeData"
 
 
 const Homepage = () => {
+
+    const [productlist , setProductlist] = useState()
+
+    useEffect(()=>{
+        axios.get('https://fakestoreapi.com/products')
+        .then((data)=>{
+            console.log(data.data)
+            setProductlist(data.data)
+        })
+        .catch((erro)=>{
+            console.log(erro)
+        })
+    },[])
+
     return (
         <div className="con d-flex flex-wrap gap-4 bg-light">
             <h1 className="Name-store">Easy Store</h1>
