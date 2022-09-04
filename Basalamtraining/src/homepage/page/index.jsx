@@ -2,7 +2,6 @@ import axios from "axios"
 import { useEffect } from "react"
 import { useState } from "react"
 import Cart from "../../cart/cart"
-import { CityData } from "../../fakeData/cityData"
 import { fakeData } from "../../fakeData/fakeData"
 
 
