@@ -11,8 +11,8 @@
 
 }
 .IMage-container{
-    max-width: 100px;
-    max-width: 100px;
+    min-width: 100px;
+    min-height: 100px;
 }
 .text-drection{
     text-align: start;
