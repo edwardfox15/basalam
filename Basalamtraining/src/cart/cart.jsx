@@ -1,5 +1,6 @@
 import IconPrice from '../component/icon-price'
 import IconRating from '../component/icon-rating'
+import IconShop from '../component/icon-shop'
 import './cart.css'
 
 const Cart = (props) => {
@@ -12,6 +13,10 @@ const Cart = (props) => {
                 <p className='text-title fw-bold text-drection text-cart-nowrap'>
                     <span>{props.title}</span>
                 </p>
+            </div>
+            <div className='w-100 d-inline'>
+              <IconShop/>
+              {props.city}
             </div>
             <div className='w-100 h-100 d-flex flex-row justify-content-end align-items-center text-cart'>
                 <div className='w-100 h-100 d-flex flex-row justify-content-start align-items-center fw-bold text-cart'>
