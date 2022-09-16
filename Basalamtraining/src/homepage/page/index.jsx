@@ -22,7 +22,6 @@ const Homepage = () => {
 
     return (
         <div className="con d-flex flex-wrap gap-4 bg-light">
-            <h1 className="Name-store">Easy Store</h1>
             {fakeData.map(item => {
                 return (
                     <div key={`product ${item.id}`} className="Homepage--container">

@@ -4,10 +4,13 @@ import './App.css'
 import Homepage from './page'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
-    <div className="App d-flex d-flex flex-row justify-content-center align-items-start">
+    <div className="App">
+      <h1 className="Name-store mt-0 pb-0">
+        <img className='w-icon-Shop-Top' src="store-svgrepo-com.svg" alt="" />
+        Easy Store</h1>
       <Homepage/>
     </div>
   )

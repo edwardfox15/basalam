@@ -58,9 +58,7 @@
     min-height: 100%;
 }
 .Name-store{
-    position: absolute;
-    top: 0%;
-    left: 44%;
+
     line-height: 4rem;
     font-family: "Varela Round","Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     letter-spacing: 0.8rem;
@@ -75,7 +73,7 @@
         width: 100%;
     }
     .Homepage--container{
-        width: 30%;
+        width: 20%;
     }
 }
 .text-cart{
@@ -94,4 +92,8 @@
     font-size: small;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+.w-icon-Shop-Top{
+    width: 50px;
+    margin-right: 5px;
 }
