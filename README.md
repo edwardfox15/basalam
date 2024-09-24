@@ -20,17 +20,17 @@ Before you begin, ensure you have the following installed:
 ## Installation
 1. Clone the repository:
 
-```
+```bash
 git clone https://github.com/your-username/shopping-website.git
 ```
 
 2. Navigate to the project directory:
-```
+```bash
 cd shopping-website
  ```
 
 3. Install the dependencies:
-```
+```bash
 npm install
 ```
 
@@ -71,3 +71,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 * React
 * React Icons
 * Bootstrap
+
+
+![LinkedIn](https://www.linkedin.com/in/edward-zohrabi-b50941192/)
+
+
+![Github](https://github.com/edwardfox15/)
+
